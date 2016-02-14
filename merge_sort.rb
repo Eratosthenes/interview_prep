@@ -1,9 +1,7 @@
 class Array
   def merge_sort
     return self if self.length == 1
-    left, right = take(length/2), drop(length/2)
-    left = left.merge_sort
-    right = right.merge_sort
+    left, right = take(length/2).merge_sort, drop(length/2).merge_sort
     Array.merge(left, right)
   end
 
