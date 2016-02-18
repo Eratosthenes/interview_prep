@@ -1,4 +1,5 @@
 # array implementation of maxheap
+# insert and extract are both O(lg 2) ops
 class MaxHeap
   
   def initialize
@@ -20,7 +21,6 @@ class MaxHeap
 
   def extract
     @heap[0] = @heap.pop()
-    puts "heap before max_heapify: #{@heap}"
     max_heapify(0)
   end
 
@@ -58,5 +58,8 @@ heap.insert(3)
 heap.insert(4)
 heap.insert(15)
 heap.display
-heap.extract
-heap.display
+
+6.times do
+  heap.extract
+  heap.display
+end
