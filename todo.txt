@@ -1,0 +1,22 @@
+Data structures:
+[] linked lists
+  - write a function to reverse a singly-linked list
+[] binary tree
+[] trie
+[] heap
+[] B-tree
+[] skip list
+[] Bloom filter
+
+Algorithms:
+[] DFS
+[] BFS
+[] re-visit word chain problem
+[] tree insert/find/etc
+[] selection sort
+
+Concepts:
+[] bit manipulation
+[] singleton design pattern
+[] factory design pattern
+[] stack vs heap

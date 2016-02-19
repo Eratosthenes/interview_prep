@@ -37,6 +37,6 @@ def count_words(str)
   Hash[ str.scan(/[a-zA-Z]+/).group_by{|word| word.downcase} ]
  end
 
-      #.map{|word, words|[word, words.size]}
+#.map{|word, words|[word, words.size]}
 puts count_words('i was home--yes, yes you was!')
 

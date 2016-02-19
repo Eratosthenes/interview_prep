@@ -30,9 +30,20 @@ class String
   def rev_4
     size == 1 ? self : "#{self[1..-1].rev_4}#{self[0]}"
   end
+
+  # recursively check whether a string is a palindrome
+  def is_pal?
+    return true if self.length == 1 
+    self[0]==self[-1] && self[1...-1].is_pal?
+  end
+  # also works:
+  #self.length == 1 || self[0]==self[-1] && self[1...-1].is_pal?
+
 end
 
 puts "hello".rev_4
 puts "hell".rev_4
 puts "hello there".rev_4
+puts "madamimadam".is_pal?
+puts "hello there".is_pal?
 
