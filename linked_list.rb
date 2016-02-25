@@ -12,8 +12,6 @@ end
 
 class List
 
-  attr_accessor :name
-
   def initialize
     @head = nil
     @tail = nil
