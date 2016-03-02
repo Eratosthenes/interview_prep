@@ -10,12 +10,15 @@ Data structures:
 
 Algorithms:
 [] DFS
-[] BFS
-  - [] implement recursively
+  - [x] implement recursively
+  - [] implement with stack
+[x] BFS
 [] re-visit word chain problem
 [] tree insert/find/etc
 [] selection sort
-[] dynamic programming - redo coins problem
+[] dynamic programming 
+  - [] redo coins problem
+  - [] kadane
 
 Concepts:
 [] bit manipulation
@@ -28,3 +31,25 @@ Knowledge:
 [] Node
 [] Java (refresh a bit)
 [] C/C++... pointers?
+
+OOD:
+[x] Patterns
+
+Sample problems:
+[] Write a function that returns true/false if a Binary Search Tree is valid or not.
+[] What does this keyword do in this language?
+[] Write a function that returns the intersection of two number ranges. The ranges are not guaranteed to be placed in numerical order.
+[] Write a function that returns the Union of a list of number ranges.
+[] Given N, write a function that returns the sum of 1 through N.
+[] Given N, and a Stream of input, return the longest String using only N distinct characters.
+[] Write a function that examples the prefix, and suffix of a string, and returns the longest length shared between them. Prefix: Exampl.e, Suffix: E.xample.
+[] Given two unsorted lists, return 1 merged list with the common elements between both lists.
+[] Given An Array of Integers with the integers representing the distance from the Capital city, defined as A[N] = N, return the farthest city, and how many cities it's route passes through along the way.
+[] Describe a CPU architecture in 2 minutes.
+[] You are given a M x N matrix with 0's and 1's Find the largest rectangular submatrix with 1's only
+[] You are given a M x N matrix with real numbers(postive and negative) Find the rectangular submatrix such that the sum of all the elements in this submatrix is the largest, compared with the sum of any other submatrix.
+[] /r/cs_questions
+[] clock question
+[] interview hacker programming Q's
+
+...maybe focus more on techniques than individual Q's
