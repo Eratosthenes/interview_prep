@@ -10,6 +10,7 @@ class Entry
 
 end
 
+# note: ops on head and tail are O(1)!
 class List
 
   def initialize

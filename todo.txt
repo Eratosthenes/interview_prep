@@ -1,6 +1,6 @@
 Data structures:
 [] linked lists
-  - write a function to reverse a singly-linked list
+    - [x] write a function to reverse a singly-linked list
 [] binary tree
 [] trie
 [] heap
@@ -11,12 +11,20 @@ Data structures:
 Algorithms:
 [] DFS
 [] BFS
+  - [] implement recursively
 [] re-visit word chain problem
 [] tree insert/find/etc
 [] selection sort
+[] dynamic programming - redo coins problem
 
 Concepts:
 [] bit manipulation
 [] singleton design pattern
 [] factory design pattern
 [] stack vs heap
+
+Knowledge:
+[] SQL - be able to do whiteboard joins/queries
+[] Node
+[] Java (refresh a bit)
+[] C/C++... pointers?
