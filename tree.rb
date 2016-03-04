@@ -61,9 +61,7 @@ def do_dfs(node, depth=0)
   end        
 end
 
-$res=Hash.new{|h,k| h[k] = []}
 puts "\nrecursive"
-do_dfs(root)
-$res.values.each do |depth|
-  puts depth.join(' ')
-end
+$res=Hash.new{|h,k| h[k] = []}
+do_dfs root
+$res.values.each { |depth| puts depth.join(' ') }
