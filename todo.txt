@@ -19,11 +19,11 @@ Algorithms:
 [] dynamic programming 
   - [] redo coins problem
   - [] kadane
+[] knapsack
+[] 3SAT
 
 Concepts:
 [] bit manipulation
-[] singleton design pattern
-[] factory design pattern
 [] stack vs heap
 
 Knowledge:
@@ -33,7 +33,8 @@ Knowledge:
 [] C/C++... pointers?
 
 OOD:
-[x] Patterns
+[x] singleton
+[x] factory
 
 Sample problems:
 [] Write a function that returns true/false if a Binary Search Tree is valid or not.
@@ -49,7 +50,7 @@ Sample problems:
 [] You are given a M x N matrix with 0's and 1's Find the largest rectangular submatrix with 1's only
 [] You are given a M x N matrix with real numbers(postive and negative) Find the rectangular submatrix such that the sum of all the elements in this submatrix is the largest, compared with the sum of any other submatrix.
 [] /r/cs_questions
-[] clock question
+[] clock question - given clocks going forward and reverse, how many times/day are the hand positions the same?
 [] interview hacker programming Q's
 
 ...maybe focus more on techniques than individual Q's
